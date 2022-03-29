@@ -34,5 +34,6 @@ ul {
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #04006D;
+    color: #fff;
   }
