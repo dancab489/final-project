@@ -1,6 +1,6 @@
 /* commenting stuff */
 body {
-    background: #ff0 radial-gradient( blue, hotpink, indigo, limegreen, yellow);
+    background: #ff0 radial-gradient( blue, hotpink, indigo, limegreen, yellow) center;
     /* background-color: #000; */
     color: #432111;
 }
@@ -49,20 +49,22 @@ ul {
   section {
     background: blue;
     color: white;
+    font-size: 25px;
   }
 
   footer {
-    position: absolute;
-    bottom:0;
     text-align: center;
     background: #f0f;
     padding: 3px;
-    clear:both;
-    float:right;
     display: block;
+    margin-top: 50px;
   }
 
   form {
     color: #b0b;
     background: #ffaaff;
+    padding: 5px;
+    clear: both;
+    float: left;
+    display: block;
   }
