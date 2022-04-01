@@ -40,3 +40,29 @@ ul {
     background-color: #04006D;
     color: #fff;
   }
+
+  iframe{
+    margin: 20px;
+    display: block;
+  }
+
+  section {
+    background: blue;
+    color: white;
+  }
+
+  footer {
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    background: #f0f;
+    padding: 3px;
+    clear:both;
+    float:right;
+    display: block;
+  }
+
+  form {
+    color: #b0b;
+    background: #ffaaff;
+  }

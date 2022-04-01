@@ -10,13 +10,21 @@
     
     <body>
         <ul>
+            <li><a href="https://ensemble-stars.fandom.com/wiki/The_English_Ensemble_Stars_Wiki"><img src='images/LogoMakr-8OzJbM.png' width="50" height="50" ></a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51023.93460359964!2d-121.8249318550376!3d36.93826491348377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e1a5b9fad7423%3A0x31c7648b06dc6d19!2sFreedom%2C%20CA!5e0!3m2!1sen!2sus!4v1648523855624!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
+        <form action="/action_text.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea><br><br>
+            <input type="submit" value="Submit">
+          </form>
     </body>
 
 </html>
